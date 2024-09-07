@@ -10,7 +10,7 @@ import kz.append.service.InlineQueryService;
 
 public class Main {
 
-    private static final String BOT_TOKEN = "6993661970:AAFdWnjr4jD842GIPD5u4jyFCbMakKWo8Tg";
+    private static final String BOT_TOKEN = "";
 
     public static void main(String[] args) {
         TelegramBot bot = new TelegramBot(BOT_TOKEN);
