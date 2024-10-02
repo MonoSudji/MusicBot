@@ -8,7 +8,7 @@ import kz.append.gui.BotUICustomizer;
 
 public class CallbackService {
 
-    private final TelegramBot bot;
+    final TelegramBot bot;
 
     public CallbackService(TelegramBot bot) {
         this.bot = bot;
