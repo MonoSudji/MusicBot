@@ -11,7 +11,7 @@ import java.io.File;
 public class AudioService {
 
     private static final String TRACKS_DIRECTORY = "tracks/";
-    private final TelegramBot bot;
+    final TelegramBot bot;
 
     public AudioService(TelegramBot bot) {
         this.bot = bot;
