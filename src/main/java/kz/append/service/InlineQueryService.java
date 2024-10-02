@@ -16,7 +16,7 @@ import java.util.UUID;
 public class InlineQueryService {
 
     private static final String TRACKS_DIRECTORY = "tracks/";
-    private final TelegramBot bot;
+    final TelegramBot bot;
 
     public InlineQueryService(TelegramBot bot) {
         this.bot = bot;
